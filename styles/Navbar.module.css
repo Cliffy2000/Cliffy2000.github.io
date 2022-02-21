@@ -1,0 +1,33 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    padding: 0px 10%;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-family: 'Segoe UI';
+    display: inline-flex;
+}
+
+.navbarName {
+    font-family: 'Lucida Handwriting';
+    font-size: 36px;
+    height: 70px;
+}
+
+.navbarNameText {
+    margin-top: 12px;
+}
+
+.navbarContent {
+    height: 70px;
+    margin-left: 10%;
+    display: flex;
+}
+
+.navbarItem {
+    font-size: 21px;
+    margin: auto;
+    padding: 0px 15px;
+}

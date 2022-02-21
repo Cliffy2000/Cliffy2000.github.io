@@ -1,17 +1,27 @@
 import React from "react";
-import Link from "next/link"
-//import { Link } from 'react-router-dom';
+import Link from "next/link";
+import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <li>
-        <Link href="/">
-          <a>Index</a>
-        </Link>
-      </li>
+    <div className={styles.navbar}>
+      <div className={styles.navbarName}>
+        <p className={styles.navbarNameText}>Cliff</p>
+      </div>
+      <div className={styles.navbarContent}>
+        <div className={styles.navbarItem}>
+          <Link href="/" passHref>
+            <a>Home</a>
+          </Link>
+        </div>
+        <div className={styles.navbarItem}>
+          <Link href="/projects" passHref>
+            <a>Projects</a>
+          </Link>
+        </div>
+      </div>
     </div>
-  )
+  );
 };
 
 export default Navbar;

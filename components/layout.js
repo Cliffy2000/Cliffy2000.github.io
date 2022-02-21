@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "./Navbar";
 
-const Layout = (title, contents) => {
+const Layout = ({title, contents}) => {
   return (
     <div>
       <Head>
