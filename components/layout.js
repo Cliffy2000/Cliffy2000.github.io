@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "./Navbar";
+import styles from "../styles/Layout.module.css";
 
 const Layout = ({title, contents}) => {
   return (
@@ -13,7 +14,9 @@ const Layout = ({title, contents}) => {
       <div>
         <main>
           <Navbar />
-          {contents}
+          <div className={styles.content}>
+            {contents}
+          </div>
         </main>
       </div>
     </div>  

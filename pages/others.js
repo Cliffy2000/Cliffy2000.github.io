@@ -5,9 +5,7 @@ import Layout from "../components/Layout";
 export default function Home() {
   const title = "Cliff";
   const contents = <div>
-    <Link href={"https://cliffy2000.github.io/p5js_projects/"}>
-      p5js projects page
-    </Link>
+    <p>others</p>
   </div>;
 
   return (

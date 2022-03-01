@@ -3,7 +3,6 @@
     top: 0;
     height: 70px;
     width: 100%;
-    padding: 0px 10%;
     background-color: rgb(74, 74, 74);
     color: white;
     font-family: 'Segoe UI';
@@ -14,20 +13,28 @@
     font-family: 'Lucida Handwriting';
     font-size: 36px;
     height: 70px;
+    margin-left: 10%;
 }
 
 .navbarNameText {
     margin-top: 12px;
+
 }
 
 .navbarContent {
     height: 70px;
-    margin-left: 10%;
+    position: absolute;
+    transform: translatex(-50%);
     display: flex;
+    left: 50%;
 }
 
 .navbarItem {
-    font-size: 21px;
+    font-size: 22px;
     margin: auto;
-    padding: 0px 15px;
+    padding: 0px 35px;
+}
+
+.navbarLink:hover {
+    font-size: 30px;
 }
